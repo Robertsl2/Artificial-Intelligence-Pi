@@ -110,8 +110,8 @@ def handle_enter(pressed):
 def event_loop():
     try:
         handle_enter(1)
-        '''
-        '''
+      
+        
         for event in dev.read_loop(): # for each event
             if event.type == ecodes.EV_KEY and event.code == ecodes.KEY_ENTER: # if event is a key and is the enter key (middle joystick)
                 handle_enter(event.value) # handle event
