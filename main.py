@@ -138,7 +138,7 @@ import RPi.GPIO as GPIO
 import alsaaudio
 import wave
 import random
-from creds import *
+#from creds import *
 import requests
 import json
 import re
